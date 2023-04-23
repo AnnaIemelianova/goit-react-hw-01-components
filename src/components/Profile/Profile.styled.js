@@ -1,21 +1,15 @@
 import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.3;
-
-    margin: 0 auto;
     padding-top: 40px;
-    margin-bottom: 100px;
+    /* margin-bottom: 60px; */
     
     width: 350px;
     max-width: 100%;
 
-    border: 2px solid ${p => p.theme.colors.accentProfile};
+    border: 2px solid ${p => p.theme.colors.backgroundAccent};
     border-radius: ${p => p.theme.radii.lgTop};
-    background-color: ${p => p.theme.colors.backgroundProfile};
+    background-color: ${p => p.theme.colors.background};
 `;
 
 export const ProfileDescription = styled.div`
@@ -33,7 +27,7 @@ export const Avatar = styled.img`
     height: 120px;
     padding: 4px;
     border-radius: ${p => p.theme.radii.round};
-    border: 2px solid ${p => p.theme.colors.accentProfile};
+    border: 2px solid ${p => p.theme.colors.backgroundAccent};
     background-color: white;
 `;
 

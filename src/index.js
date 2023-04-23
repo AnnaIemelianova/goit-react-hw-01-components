@@ -10,7 +10,7 @@ const theme = {
     black: '#000',
     text: '#3a3544',
     accentProfile: '#0d1447',
-    backgroundProfile: '#f3fafd',
+    background: '#f3fafd',
     backgroundAccent: '#194E62',
   },
   radii: {
