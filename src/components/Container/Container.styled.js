@@ -15,4 +15,5 @@ export const Container = styled.div`
     font-weight: 500;
     line-height: 1.3;
     color: #010101;
+    background-color: #d1d1e0;
 `;

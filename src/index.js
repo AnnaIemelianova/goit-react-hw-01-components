@@ -12,6 +12,7 @@ const theme = {
     accentProfile: '#0d1447',
     background: '#f3fafd',
     backgroundAccent: '#194E62',
+    yellow: '#ffff33',
   },
   radii: {
     sm: '4px',

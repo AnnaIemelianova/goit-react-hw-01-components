@@ -9,6 +9,7 @@ export const StatisticsSection = styled.section`
     width: 350px;
     max-width: 100%;
     border: 2px solid ${p => p.theme.colors.backgroundAccent};
+    background-color: ${p => p.theme.colors.white};
 `;
 
 export const Title = styled.h2`
